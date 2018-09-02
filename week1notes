@@ -1,1 +1,56 @@
 
+NLP:
+1. lexical analysis/part-of-speech tagging 词法分析，名词动词
+2. semantic analysis, parsing 语法分析，名词类动词类 词组
+   dog(d1),noy(b1),playground(p1),chasing(d1,b1,p1)
+3. pragmatic analysis 语用分析，这句话的用处是什么，言者的用意
+
+Main difficulty: ambiguity
+ 1. word-level ambiguity: 一词名动均可，一词多义
+ 2. syntactic ambiguity: 词序导致句义变化
+ 3. anaphora resolution：指代歧义
+ 4. presupposition: 前提，预设
+ 
+ 可实现的: entities extraction 个体信息提取
+          word sense disambiguition
+          sentiment analysis 积极消极性分析
+          
+ 不可实现的： 100% part-of-speech tagging
+             general complete parsing
+             precise deep semantic analysis
+             
+       
+NLP for Text Retrieval
+ general robust and efficient-shallow NLP
+ 
+ bags of words representation: ignore order, retain words.
+ 
+Text access:
+Two Modes: Pull vs. Push
+Pull(search engines):1.Users take initiative
+                     2.Ad hoc information need-temporary information need
+Push(recommender systems):1.Systems take initiative
+                          2.Stable information need or system has good knowledge about a user's need
+            
+ For Pull: Querying vs. Browsing
+ Information seeking: 是否知道what exactyly to find
+ -Yes: use the right keywords as a query and find the info directly.
+ -No: browse the info space or start with a rough query and then browse.
+ 
+Text Retrieval(Search Engine):
+定义：collection of text documents exists->user gives a query to express the info need->
+  search engine system returns relevant documents to users->info retrieval, but IR is actually much broader
+  ->search technology in industry
+  
+Text Retrieval vs. Database Retrieval
+Information区别: unstructured/free text vs. structured data
+                 ambiguous vs. well-defined semantics
+ Query区别: ambiguous vs. well-defined semantics
+            incomplete vs. complete specification
+ Answer区别: relevant documents vs. matched records
+ 
+ Text Retrieval is an empirically defined problem
+ -Can't mathematically prove one method is better than another
+ -Must rely on empirical evaluation involving users
+ 
+ 
