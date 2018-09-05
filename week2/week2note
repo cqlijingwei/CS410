@@ -10,3 +10,5 @@ IDF better than linear relation: more # of docs in collection, less effect in we
 
 TF-IDF weighting: term frequency-inverse document frequency weighting
 problem for above design: redundant of one word, lack of other words still get high score
+
+solution to above problem: TF transformation
