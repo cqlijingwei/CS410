@@ -1,1 +1,16 @@
+Text retrieval is an empirically defined problem.
 
+Evalution relies on users.
+
+Evaluation only needs to tell which method works better.
+
+Accuracy is unique to text retrieval.
+
+Before testing, there is an evaluation method called Cranfield Evaluation Methodology.
+
+CEM: build reusable test collections and defind measures
+
+precision: proportion of relevant documents out of all documents in the system
+recall: proportion of relevant documents in the system out of all relevant documents in the collection
+
+F-Measure: beta usually sets to 1
