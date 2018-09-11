@@ -14,3 +14,5 @@ precision: proportion of relevant documents out of all documents in the system
 recall: proportion of relevant documents in the system out of all relevant documents in the collection
 
 F-Measure: beta usually sets to 1
+
+Evaluate ranking: out of the system, assume precision 0.
