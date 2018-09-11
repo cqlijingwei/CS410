@@ -16,3 +16,11 @@ recall: proportion of relevant documents in the system out of all relevant docum
 F-Measure: beta usually sets to 1
 
 Evaluate ranking: out of the system, assume precision 0.
+
+Average precision: area under PR curve/total number of relevant documents in collection
+  同一recall纬度，取最高点precision为判断值
+  
+  slight change in ranking position influence the final result.
+  
+  PR ranking is useful from a user's perspective
+  Average precision is better for algorithm comparison
