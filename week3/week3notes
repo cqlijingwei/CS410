@@ -24,3 +24,7 @@ Average precision: area under PR curve/total number of relevant documents in col
   
   PR ranking is useful from a user's perspective
   Average precision is better for algorithm comparison
+
+Mean Average Precision:
+
+easy, popular queries use MAP, difficult queries use geometric MAP.
