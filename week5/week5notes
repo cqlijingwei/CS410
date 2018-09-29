@@ -1,1 +1,3 @@
 
+Take the average of negative examples does not really tell you where the centroid should move to.
+不相关的例子是分散的
