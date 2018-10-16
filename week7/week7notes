@@ -4,3 +4,15 @@ Non-Text Data: Numerical, categorical, relational, video.
 Paradigmatic: 可替代的词关系
 Syntagmatic: 互补的词关系
 这两种词关系可以形容任意词之间的关系
+
+Mining Word Associations: General Ideas
+-Paradigmatic
+  represent each word by its context
+  compute context similarity
+  words with "high context similarity" likely have paradigmatic relation
+-Syntagmatic
+  count how many times two words occur together in a context(sentence or paragraph)
+  compare their co-occurrences with their individual occurrences
+  words with "high co-occurrences but relatively low individual occurrences" likely have syntagmatic relation
+  
+Paradigmatically related words tend to have syntagmatic relation with the same word -> "joint discovery" of the two relations
