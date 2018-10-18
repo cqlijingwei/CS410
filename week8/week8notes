@@ -3,3 +3,6 @@ Common words("the") and rare words("unicorn") are easy to predict.
 
 conditional entropy: more information, less uncertainty, smaller entrypy value
 entropy value: level of uncertainty, H(X|X)=0 means no uncertainty to predict X given X
+not relevant words(X and "the"), high uncertainty, reach the maximum of entropy value
+
+Different upper bounds->Cannot compare H(X|Z) and H(Y|Z)
