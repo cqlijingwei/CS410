@@ -1,2 +1,4 @@
 
 Common words("the") and rare words("unicorn") are easy to predict.
+
+conditional entropy: more information, less uncertainty, smaller entrypy value
