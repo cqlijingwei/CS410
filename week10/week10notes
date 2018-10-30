@@ -2,3 +2,5 @@
 perspective/bias: to access similarity.
 
 similarity-based methods: HAC, k-means 具有代表性
+
+Ni: the number of documents in each category.
